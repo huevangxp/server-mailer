@@ -10,20 +10,20 @@ const port = process.env.PORT =  3000;
 // Email configuration
 const transporter = nodemailer.createTransport({
 
-    host: "sandbox.smtp.mailtrap.io",
+    host: "sandbox.smtp.mailddtrap.io",
     port: 2525,
     secure: false,
     auth: {
-        user: 'eb949f8654bc82',
-        pass: '2a7ee4633d98f5'
+        user: 'eb949f8654bc8dd2',
+        pass: 'ddfasdfqwedfd2232'
     }
 });
 
 // Function to send email
 // Configure the mailoptions object
 const mailOptions = {
-    from: 'huevang933@email.com',
-    to: 'huevang770@email.com',
+    from: 'huevang@email.com',
+    to: 'huevang@email.com',
     subject: 'Sending Email using Node.js',
     text: 'That was easy!'
 };
